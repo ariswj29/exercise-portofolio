@@ -32,6 +32,7 @@ select {
 
 /* Global Styles */
 body main {
+  height: 100vh;
   padding: 24px;
   font-family: "Epilogue", sans-serif;
   font-size: 18px;
@@ -41,11 +42,11 @@ body header{
   padding: 18px;
   font-family: "Epilogue", sans-serif;
   font-size: 18px;
-  background-color: rgb(216, 248, 218);
 }
 
 main,
-footer {
-  max-width: 1440px;
+footer {  
   margin: 0 auto;
 }
+
+/* background img greeting */
