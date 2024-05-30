@@ -14,6 +14,11 @@ export default {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },
+      fontSize:{
+        '4xl5': ['2.7rem', {
+          lineHeight: '3.5rem',
+        }],
+      },
       margin: {
         '0-auto': '0 auto',
       },

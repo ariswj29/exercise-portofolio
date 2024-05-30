@@ -32,13 +32,13 @@ select {
 
 /* Global Styles */
 body main {
-  height: 100vh;
   padding: 24px;
   font-family: "Epilogue", sans-serif;
   font-size: 18px;
 }
 
 body header{
+  position: absolute;
   padding: 18px;
   font-family: "Epilogue", sans-serif;
   font-size: 18px;
