@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 
 function Home(){
     return(
-        <section className="flex flex-col sm:flex-row mt-32 items-stretch gap-6 sm:gap-12 mx-auto max-w-4xl">
+        <section className="flex flex-col sm:flex-row items-stretch gap-6 sm:gap-12 mx-auto max-w-4xl">
             <div className="w-full sm:w-96 order-1 sm:order-2">
-                <picture className="w-full h-full" id="gradient-background">
+                <picture className="w-full h-full">
                 <source srcSet={imgMeMobile} media="(max-width: 850px)" />
-                <img className="w-full h-full object-cover" src={imgMe} alt="Aris Wildan Jannatan" />
+                <img className="w-full h-full object-cover sm:border-2 sm:border-tertiary sm:rounded-full lg:border-none" src={imgMe} alt="Aris Wildan Jannatan" />
                 </picture>
             </div>
             <div className="flex flex-1 flex-col self-center justify-between text-center sm:text-left order-2 sm:order-1">

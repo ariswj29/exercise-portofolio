@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className='bg-gray-400 md:h-screen sm:h-0'>
+      <main className='bg-gray-400 h-screen content-center'>
         <Outlet />
       </main>
       <Footer />
