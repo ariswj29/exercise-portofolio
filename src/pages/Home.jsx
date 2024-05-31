@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 function Home(){
     return(
         <section className="flex flex-col sm:flex-row items-stretch gap-6 sm:gap-12 mx-auto max-w-4xl">
-            <div className="w-full sm:w-96 order-1 sm:order-2">
+            <div className="w-full sm:w-96 mt-12 sm:mt-0 order-1 sm:order-2 ">
                 <picture className="w-full h-full">
-                <source srcSet={imgMeMobile} media="(max-width: 850px)" />
-                <img className="w-full h-full object-cover sm:border-2 sm:border-tertiary sm:rounded-full lg:border-none" src={imgMe} alt="Aris Wildan Jannatan" />
+                <source srcSet={imgMeMobile} media="(max-width: 640px)" />
+                <img className="w-full h-full object-cover border-4 border-tertiary rounded-full lg:border-none" src={imgMe} alt="Aris Wildan Jannatan" />
                 </picture>
             </div>
             <div className="flex flex-1 flex-col self-center justify-between text-center sm:text-left order-2 sm:order-1">
@@ -17,7 +17,7 @@ function Home(){
                     <br />
                     <span className="text-primary sm:text-4xl md:text-4xl5">Aris Wildan Jannatan</span>
                 </h1>
-                <p className="max-w-full sm:max-w-3xl text-secondary text-justify pb-8 font-medium leading-relaxed">
+                <p className="pb-8 px-4 sm:px-0 max-w-full sm:max-w-3xl text-secondary text-justify font-medium leading-relaxed">
                 I am a junior web developer and I have a little experience in web development. Now, I'm learning in 
                 <a className="text-primary" href='https://purwadhika.com/' target='_blank'> Purwadhika Digital School</a> to improve my skills.
                 </p>
