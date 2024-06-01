@@ -1,14 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const navItems = [
-    { name: 'Home', href: '' },
-    { name: 'About', href: 'about' },
-    { name: 'Experience', href: 'experience' },
-    { name: 'Contact', href: 'contact' },
-];
-
-function Header() {
+function Header(props) {
+    const navItems = props.data;
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleDropdown = () => {

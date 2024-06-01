@@ -6,8 +6,10 @@ import App from "./App.jsx";
 import ErrorPage from "./pages/Error.jsx";
 import HomePage from "./pages/Home.jsx";
 import AboutPage from "./pages/About.jsx";
+import ExperiencePage from "./pages/Experience.jsx";
 import ContactPage from "./pages/Contact.jsx";
 import "./styles/index.css";
+import Data from "./data.js";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <HomePage /> },
       { path: "/about", element: <AboutPage />},
+      { path: "/experience", element: <ExperiencePage data={Data().dataExperience} /> },
       { path: "/contact", element: <ContactPage /> },
     ],
   },

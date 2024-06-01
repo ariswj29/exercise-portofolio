@@ -1,7 +1,7 @@
 function About(){
     return(
-        <section className="flex flex-col sm:flex-row items-stretch gap-6 sm:gap-12 mx-auto max-w-4xl">
-            <div className="flex flex-1 flex-col self-center justify-between text-center sm:text-left order-2 sm:order-1">
+        <section className="flex flex-col sm:flex-row h-screen sm:h-full items-stretch gap-6 sm:gap-12 mx-auto max-w-5xl">
+            <div className="flex flex-1 flex-col self-center justify-center text-center sm:text-left">
                 <h1 className="text-4xl font-bold text-secondary mb-4">About Me</h1>
                 <div className="flex sm:flex-row flex-col items-center sm:items-start">
                     <div className="flex flex-col pr-4 w-[100%] sm:w-[50%] text-justify">
