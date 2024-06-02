@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Home(){
     return(
-        <section className="flex flex-col sm:flex-row items-stretch gap-6 sm:gap-12 mx-auto max-w-5xl">
+        <section className="flex flex-col sm:flex-row my-12 items-stretch gap-6 sm:gap-12 mx-auto max-w-5xl">
             <div className="w-full sm:w-96 mt-12 sm:mt-0 order-1 sm:order-2 ">
                 <picture className="w-full h-full">
                 <source srcSet={imgMeMobile} media="(max-width: 640px)" />
